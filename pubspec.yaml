@@ -1,0 +1,15 @@
+name: 'heck'
+version: 0.0.1
+description: >
+  A minimal web app for the developer that doesn’t want to be confused by too
+  much going on.
+#author: <your name> <email@example.com>
+#homepage: https://www.example.com
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  script_inliner: '>=0.0.3 <0.1.0'
+  pixi_dart: any
+transformers:
+  - script_inliner

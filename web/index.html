@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SIBQ</title>
+		
+		<style>
+			body {
+				overflow: hidden;
+				background-color: black;
+			}
+			#game_container {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#edit_menu {
+				float: right;
+				width: 300px;
+				background-color: #AAA;
+				border-radius: 5px;
+				paddin-bottom: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="game_container"></div>
+		<div id="edit_menu" style="display: none;">
+			<h1>Edit Mode</h1>
+			<button id="edit_bg">Set BG Color</button>
+			<div id="edit_tilepicker"></div>
+		</div>
+		<script type="application/dart" src="main.dart"></script>
+		<script data-pub-inline src="packages/browser/dart.js"></script>
+		<script src="js/stats.min.js"></script>
+	</body>
+</html>
