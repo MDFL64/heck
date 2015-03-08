@@ -1,6 +1,8 @@
 #Honors Game Project 1
 **aka heck**
 
+A game I made for my Honors class. Based on Dante's Inferno.
+
 ##License
 
 The MIT License (MIT)
